@@ -43,8 +43,6 @@ napQR is a sleek, responsive, and feature-rich **QR code generator** built with 
 
 ## Screenshots
 
-> You can add images here for a more professional look. For example:
-
 - **QR Generation Preview**  
 ![QR Preview](screenshots/qr-preview.png)  
 
@@ -53,8 +51,6 @@ napQR is a sleek, responsive, and feature-rich **QR code generator** built with 
 
 - **Mobile View**  
 ![Mobile](screenshots/mobile-view.png)  
-
-*(Tip: create a `screenshots/` folder and add images there)*
 
 ---
 
