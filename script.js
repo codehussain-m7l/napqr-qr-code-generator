@@ -1,3 +1,4 @@
+const qrText = document.getElementById("qrText");
 const qrImage = document.getElementById("qrImage");
 const historyList = document.getElementById("historyList");
 const qrContentPreview = document.getElementById("qrContentPreview");
@@ -91,6 +92,7 @@ function renderHistory() {
 
 }
 
+
 renderHistory();
 
 clearHistoryBtn.onclick = () => {
@@ -105,3 +107,4 @@ clearHistoryBtn.onclick = () => {
   saveData();
   renderHistory();
 };
+
