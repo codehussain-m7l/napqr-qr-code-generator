@@ -6,8 +6,7 @@ napQR is a sleek, responsive, and feature-rich **QR code generator** built with 
 
 ---
 ### Live Link
-https://napqr-qr-code-generator.vercel.app/
-GitHub: [https://napqr-qr-code-generator.vercel.app/](https://napqr-qr-code-generator.vercel.app/)
+[https://napqr-qr-code-generator.vercel.app/](https://napqr-qr-code-generator.vercel.app/)
 
 ## Features
 
