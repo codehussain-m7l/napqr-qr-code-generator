@@ -51,7 +51,6 @@ napQR is a sleek, responsive, and feature-rich **QR code generator** built with 
 
 - **Mobile View**  
 ![Mobile](screenshots/mobile-view.png)  
-
 ---
 
 ## Developer
