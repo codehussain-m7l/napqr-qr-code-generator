@@ -5,6 +5,9 @@
 napQR is a sleek, responsive, and feature-rich **QR code generator** built with **HTML, CSS, and JavaScript**. It allows users to instantly convert any text, code snippet, URL, or data into a QR code, preview it, and download it as an image.
 
 ---
+### Live Link
+https://napqr-qr-code-generator.vercel.app/
+GitHub: [https://napqr-qr-code-generator.vercel.app/](https://napqr-qr-code-generator.vercel.app/)
 
 ## Features
 
