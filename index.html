@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>napQR | RBeautiful QR Code Generator</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="app">
+  <header>
+    <h2> 
+        <a class="logo" href="index.html">
+            <div class="logo-container">
+                <img src="napQR-logo.png" alt="napQR Logo" id="appLogo">
+                <span class="app-name">napQR</span>
+            </div>
+        </a>
+    </h2>
+    <div class="profile">
+      <img id="avatar" src="https://via.placeholder.com/100">
+      <input id="username" placeholder="Your name">
+      <input type="file" id="avatarInput" hidden>
+    </div>
+  </header>
+
+  <div class="main">
+    <div class="card">
+      <h3>Enter Text / Code</h3>
+      <textarea id="qrText" placeholder="Text, URL, code, JSON, anything..."></textarea>
+      <button onclick="generateQR()">Generate QR</button>
+    </div>
+
+    <div class="card qr-preview">
+      <h3>Preview</h3>
+      <img id="qrImage" src="">
+      <div class="qr-text-preview">
+        <label>QR Code Content</label>
+        <textarea id="qrContentPreview" readonly></textarea>
+      </div>
+
+      <button onclick="downloadQR()">Download QR</button>
+    </div>
+  </div>
+
+  <div class="history">
+    <h3>History</h3>
+    <div class="history-list" id="historyList"></div>
+    <button id="clearHistoryBtn" class="clear-history-btn">Clear History</button>
+  </div>
+
+  <footer class="app-footer">
+    <p>© 2026 QR Code Generator | Developed by <strong><a href="https://linktr.ee/codehussain">codehussain</a></strong></p>
+  </footer>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
